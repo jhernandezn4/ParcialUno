@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ParcialUno.Views.JuegoUno">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ejercicio 1" FontSize="36" HorizontalOptions="CenterAndExpand" Margin="30" />
+            <Label Text="A continuación adivinaré el número en el que estas pensando, solo sigue los siguientes pasos: " Margin="30"></Label>
+            <Label Text="Paso 1: Piensa en un número y mutiplicado por dos" Margin="30,0"></Label>
+            <Label Text="Paso 2: Luego súmale 8 " Margin="30,0"></Label>
+            <Label Text="Paso 3: Para finalizar multiplicalo por 5 " Margin="30,0"></Label>
+            <Label Text="Ahora que tienes el resultado, ingresalo a continuación y presiona en Adivinar" Margin="30,30,30,30"></Label>
+            <Entry Placeholder="Ingresa tu Resultado" x:Name="txtNumero" Margin="30,0" Keyboard="Numeric"  ></Entry>
+            <Button Text="Adivinar" Margin="30" Clicked="Calcular" ></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
